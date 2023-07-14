@@ -21,17 +21,12 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #478ED4;
     overflow: hidden;
 }
-.circle{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #194fb669;
-    clip-path: circle(50% at bottom right);
+.principal{
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/back.png);
 }
 
 /* ------------------------------------------ Botão Contato ----------------------------- */
@@ -261,7 +256,9 @@ nav li a{
 /*--------------------------- Sobre Mim -------------------------------*/
 
 .sobre{
-    background-color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/fundo2.png);
 }
 .sobre .container{
     display: flex;
