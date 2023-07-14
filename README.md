@@ -13,7 +13,7 @@ Foi criado junto ao meu colega do colégio, que tivemos a ideia de fazer no Figm
 
 - Por ultimo fizemos em Mockup.
 
-<img src="./img/mockup.jpg"/>
+<img src="./Projeto Ulbra/img/mockup.jpg"/>
 
 ## 🔨 Ferramentas
 
