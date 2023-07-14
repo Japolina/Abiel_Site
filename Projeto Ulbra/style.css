@@ -22,6 +22,7 @@ section{
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
+    background-color: #0073c8;
 }
 .principal{
     background-size: cover;
@@ -245,7 +246,7 @@ nav li a{
     transition:  0.3s ease-in-out;
 }
 .icons li a:hover{
-    background: #3860aa;
+    background: #0073c8;
     transform: translateY(-10px);
 }
 .icons li a img{
@@ -287,7 +288,7 @@ nav li a{
 
 /* ---------------------------------- Serviços ----------------------------*/
 .service {
-    background-color: #478ED4;
+    background-color: #0073c8;
     width: 100%;
     padding: 0px 0px;
 }
@@ -314,7 +315,7 @@ nav li a{
     position: relative;
     overflow: hidden;
     text-align: center;
-    border: .2rem solid #478ED4;
+    border: .2rem solid #84c1ff;
     transition: .5s ease;
 }
 .service-box:hover{
@@ -407,28 +408,18 @@ p{
 /* ----------------------------------- Footer -------------------------------------------- */
 
 footer{
-    position: relative;
-    width: 100%;
-    padding: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background: #478ED4;
     overflow: hidden;
 }
-.icones {
-    position: absolute;
-    bottom: 40px;
-    left: 100px;
+.final-icones {
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin: 1rem;
 }
-.icones li{
+.final-icones li{
     list-style: none;
 }
-.icones li a{
-    display: inline-block;
+.final-icones li a{
     margin-left: 45px;
     background: #e1b000;
     width: 50px;
@@ -439,15 +430,20 @@ footer{
     border-radius: 50%;
     transition:  0.3s ease-in-out;
 }
-.icones li a:hover{
+.final-icones li a:hover{
     background: #3860aa;
     transform: translateY(-10px);
 }
-.icones li a img{
+.final-icones li a img{
     filter: invert(1);
     transform: scale(0.5);
+}
+.endereco{
+    margin-top: 3rem;
+    margin-left: 2rem;
 }
 .endereco p{
     display: flex;
     justify-content: center;
+    color: #fff;
 }
