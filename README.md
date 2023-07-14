@@ -9,7 +9,7 @@ Esse projeto é para um cliente do colégio Ulbra São Lucas, onde o cliente ped
 Foi criado junto ao meu colega do colégio, que tivemos a ideia de fazer no Figma com base no que tive em mente.
 - Primeiramente fizemos em Wireframe.
   
-<img src="./img/wireframe.jpg" />
+<img src="./Projeto Ulbra/img/wireframe.jpg" />
 
 - Por ultimo fizemos em Mockup.
 
