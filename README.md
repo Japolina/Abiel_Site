@@ -8,7 +8,10 @@ Esse projeto é para um cliente do colégio Ulbra São Lucas, onde o cliente ped
 ## 📚 Qual foi a base do site?
 
 Foi criado junto ao meu colega do colégio, que tivemos a ideia de fazer no Figma com base no que tive em mente.
-<img scr="wireframe.png" />
+- Primeiramente fizemos em Wireframe.
+- Por ultimo fizemos em Mockup.
+  
+<img scr="./img/Wireframe.jpg" />
 
 ## 🔨 Ferramentas
 
