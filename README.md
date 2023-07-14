@@ -1,4 +1,4 @@
-# Portifólio Abiel
+# Portifólio Abiel Lauri Pinnow
 **#0073c8**
 
 ## 📘 Sobre
