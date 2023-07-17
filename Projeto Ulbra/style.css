@@ -259,7 +259,7 @@ nav li a{
 .sobre{
     background-size: cover;
     background-position: center;
-    background-image: url(img/fundo2.png);
+    background-image: url(img/fundo1.png);
 }
 .sobre .container{
     display: flex;
@@ -344,16 +344,16 @@ p{
 
 /* ------------------------------- Projetos ------------------------------*/
 .projetos {
-    background-color: #ffffff;
-    width: 100%;
-    padding: 100px 0px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/part1.jpg);
 }
 .projetos .titulo h2{
     color: #000000;
     font-size: 50px;
     margin: 50px;
     margin-bottom: 100px;
-    margin-left: 550pX;
+    margin-left: 50pX;
 }
 .galery-container{
     display: flex;
@@ -381,7 +381,9 @@ p{
 /* ------------------------------------- Texto Final ------------------------------ */
 
 .final-text{
-    background-color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/part2.jpg);
 }
 .final-text .container{
     display: flex;
