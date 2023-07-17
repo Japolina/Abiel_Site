@@ -2,7 +2,7 @@
 
 ## 📘 Sobre
 
-Esse projeto é para um cliente do colégio Ulbra São Lucas, onde o cliente pediu um site portifólio contando sobre o ramo e as experiências que vivenciou.
+Esse projeto é para um cliente do colégio Ulbra São Lucas, onde o cliente pediu um site portifólio contando sobre o ramo e as experiências que vivenciou como Pastor.
 
 ## 📚 Qual foi a base do site?
 
