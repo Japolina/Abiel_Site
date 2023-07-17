@@ -265,18 +265,18 @@ nav li a{
 .figure-principal .fig3{
     display: flex;
     align-items: center;
-    height: 90rem;
-    margin-left: 2rem;
+    height: 85rem;
+    margin-left: -1rem;
     margin-right: 0rem;
     margin-bottom: 1rem;
-    padding: 0px 10px;
+    padding: 0px 50px;
 }
 .figure-principal .fig4{
     position: absolute;
     display: flex;
     align-items: center;
-    height: 105rem;
-    left: 25rem;
+    height: 120rem;
+    left: 22rem;
     margin-bottom: 10rem;
     padding: 0px 50px;
 }
