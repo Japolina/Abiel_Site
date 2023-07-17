@@ -253,9 +253,62 @@ nav li a{
     filter: invert(1);
     transform: scale(0.5);
 }
+.figure-principal{
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.figure-principal .fig3{
+    display: flex;
+    align-items: center;
+    height: 90rem;
+    margin-left: 2rem;
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+    padding: 0px 10px;
+}
+.figure-principal .fig4{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 105rem;
+    left: 25rem;
+    margin-bottom: 10rem;
+    padding: 0px 50px;
+}
 
 /*--------------------------- Sobre Mim -------------------------------*/
-
+figure{
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+figure .fig{
+    display: flex;
+    align-items: center;
+    margin-top: -12rem;
+    height: 1rem;
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+    padding: 0px 50px;
+}
+figure .fig2{
+    display: flex;
+    align-items: center;
+    height: -10rem;
+    margin-top: -31rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    padding: 0px 100px;
+}
 .sobre{
     background-size: cover;
     background-position: center;
@@ -346,7 +399,7 @@ p{
 .projetos {
     background-size: cover;
     background-position: center;
-    background-image: url(img/part1.jpg);
+    background-image: url(img/fundo1_2.png);
 }
 .projetos .titulo h2{
     color: #000000;
@@ -383,7 +436,7 @@ p{
 .final-text{
     background-size: cover;
     background-position: center;
-    background-image: url(img/part2.jpg);
+    background-image: url(img/fundo1.png);
 }
 .final-text .container{
     display: flex;
