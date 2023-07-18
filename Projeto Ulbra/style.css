@@ -204,7 +204,7 @@ nav li a{
 }
 .content .text p{
     color: #fff;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .content .text a{
     display: inline-block;
@@ -316,21 +316,24 @@ figure .fig2{
 }
 .sobre .container{
     display: flex;
-    align-items: center;
+    width: 100%;
+    margin-left: 20rem;
 }
-.sobre .text{
-    width: 50%;
-    padding: 0 40px;
-    
+.container .text{
+    width: 100%;
+    padding: 1.5rem 5rem;
 }
-.sobre .text h3{
+.container .text h3{
     font-size: 50px;
     color: #121212;
+    padding: 0rem 1rem;
+    margin-left: 15rem;
 }
 .sobre .text p{
-    margin: 50px 0 10px 0;
-    margin-bottom: 100px;
+    margin: 2rem 0rem ;
     color: #121212;
+    padding: 5rem 1rem;
+    left: 10rem;
 }
 .sobre .img{
     width: 50%;
@@ -338,12 +341,42 @@ figure .fig2{
 .sobre .img img{
     width: 100%;
 }
-
+.galery-container1{
+    display: flex;
+    gap: 3rem;
+    margin-left: 1rem;
+    padding: 5rem 0rem;
+}
+.fotos-sobremim{
+    width: 340px;
+    height: 340px;
+}
+.galery-container1 .foto1{
+    position: absolute;
+    border-radius: 2rem;
+    width: 20rem;
+    height: 25rem;
+    top: 9rem;
+    left: 7rem;
+    transition: 0.2s;
+}
+.galery-container1 .foto2{
+    position: absolute;
+    border-radius: 2rem;
+    width: 20rem;
+    height: 25rem;
+    top: 19rem;
+    left: 25rem;
+    transition: 0.2s;
+}
+.galery-container1 img:hover{
+    transform: scale(1.1);
+}
 /* ---------------------------------- Serviços ----------------------------*/
 .service {
     background-color: #0073c8;
     width: 100%;
-    padding: 0px 0px;
+    padding: 4rem 4rem;
 }
 .service .title h2 {
     color: #fff;
@@ -501,4 +534,26 @@ footer{
     display: flex;
     justify-content: center;
     color: #fff;
+}
+/*celulares*/
+@media screen and (max-width: 380px){
+
+    section{
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+        background-color: #0073c8;
+    }
+    .principal{
+        background-size: cover;
+        background-position: center;
+        background-image: url(img/back.png);
+    }
+
+
 }
