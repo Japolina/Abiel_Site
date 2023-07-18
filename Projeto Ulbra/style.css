@@ -276,7 +276,7 @@ nav li a{
     display: flex;
     align-items: center;
     height: 120rem;
-    left: 22rem;
+    left: 45rem;
     margin-bottom: 10rem;
     padding: 0px 50px;
 }
@@ -295,7 +295,7 @@ figure .fig{
     display: flex;
     align-items: center;
     margin-top: -12rem;
-    height: 1rem;
+    height: 10rem;
     margin-right: 0rem;
     margin-bottom: 1rem;
     padding: 0px 50px;
@@ -317,17 +317,16 @@ figure .fig2{
 .sobre .container{
     display: flex;
     width: 100%;
-    margin-left: 20rem;
 }
 .container .text{
-    width: 100%;
-    padding: 1.5rem 5rem;
+    width: 50%;
+    padding: 1.5rem 0rem;
+    margin-left: 40rem;
 }
 .container .text h3{
     font-size: 50px;
     color: #121212;
     padding: 0rem 1rem;
-    margin-left: 15rem;
 }
 .sobre .text p{
     margin: 2rem 0rem ;
@@ -347,85 +346,78 @@ figure .fig2{
     margin-left: 1rem;
     padding: 5rem 0rem;
 }
-.fotos-sobremim{
-    width: 340px;
-    height: 340px;
-}
 .galery-container1 .foto1{
     position: absolute;
     border-radius: 2rem;
     width: 20rem;
     height: 25rem;
     top: 9rem;
-    left: 7rem;
+    left: 12rem;
     transition: 0.2s;
 }
 .galery-container1 .foto2{
     position: absolute;
     border-radius: 2rem;
     width: 20rem;
-    height: 25rem;
-    top: 19rem;
-    left: 25rem;
+    height: 34rem;
+    top: 15rem;
+    left: 28rem;
     transition: 0.2s;
 }
 .galery-container1 img:hover{
     transform: scale(1.1);
 }
 /* ---------------------------------- Serviços ----------------------------*/
-.service {
+.servicos {
     background-color: #0073c8;
-    width: 100%;
-    padding: 4rem 4rem;
 }
-.service .title h2 {
-    color: #fff;
-    font-size: 50px;
-    margin: 0px;
-    margin-bottom: 100px;
-    margin-left: 320pX;
+.servicos .title2 {
+    color: aliceblue;
+    font-size: 35px;
+    margin-left: 15rem;
+    margin-top: 5rem;
 }
-.service-container{
+.servicos .container2{
     display: flex;
-    justify-content: center;
     align-items: center;
-    min-height: 400px;
+    margin-left: 10rem;
 }
-.service-box{
-    height: 500px;
-    width: 450px;
-    padding: 20px 30px;
-    background: #ffffff;
-    border-radius: 20px;
-    margin: 15px;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-    border: .2rem solid #84c1ff;
-    transition: .5s ease;
+.servicos .text{
+    width: 55%;
+    padding: 0 40px;
+    color: aliceblue;
 }
-.service-box:hover{
-    border-color: #90c8ff;
-    transform: scale(1.02);
+.servicos .text p{
+    margin: 50px;
+    margin-bottom: 100px;
+    color: aliceblue;
 }
-.service-box i{
-    font-size: 50px;
-    display: block;
-    text-align: center;
-    margin: 25px 0px;
-    color: #000000;
+.galery-container2{
+    display: flex;
+    gap: 3rem;
+    margin-left: 1rem;
+    padding: 5rem 0rem;
 }
-h3{
-    color: #000000;
-    font-size: 23px;
-    margin-bottom: 15px;
-
+.galery-container2 .foto5{
+    position: absolute;
+    border-radius: 2rem;
+    width: 22rem;
+    height: 27rem;
+    top: 9rem;
+    left: 85rem;
+    transition: 0.2s;
 }
-p{
-    color: #000000;
-    font-size: 16px;
-    line-height: 27px;
-    margin-bottom: 25px;
+.galery-container2 .foto3{
+    position: absolute;
+    border-radius: 2rem;
+    width: 24rem;
+    height: 32rem;
+    top: 19rem;
+    left: 63rem;
+    transition: 0.2s;
+}
+.galery-container2 img:hover{
+    transform: scale(1.1);
 }
 
 /* ------------------------------- Projetos ------------------------------*/
