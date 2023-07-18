@@ -11,14 +11,21 @@ Foi criado junto ao meu colega do colégio, que tivemos a ideia de fazer no Figm
   
 <img src="./Projeto Ulbra/img/wireframe.jpg" />
 
+
+
+
 - Por ultimo fizemos em Mockup.
 
 <img src="./Projeto Ulbra/img/mockup.jpg"/>
+
+
+
 
 ## 🔨 Ferramentas
 
 - **HTML**
 - **CSS**
+- **JavaScript**
 
 ## ♻️ Como Contribuir
 
