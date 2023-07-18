@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <script src="https://kit.fontawesome.com/736f1fe219.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lightbox.css">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -56,11 +58,13 @@
         </figure>
     <div class="container">
         <div class="galery-container1">
-            <a href="img/foto2.jpeg" class="">
-                <img src="img/foto2.jpeg" class="foto1" alt="">
+            <a href="img/foto1.jpeg" data-title="" data-Lightbox="lambo-img" class="foto1">
+                <img src="img/foto1.jpeg" class="foto1" alt="">
             </a>
-            <a href="img/foto1.jpeg" class="">
-                <img src="img/foto1.jpeg" class="foto2">
+            <!-- <a href="img/foto1.jpeg" data-title="" data-Lightbox="lambo-img" class="img">
+            </a> -->
+            <a href="img/foto2.jpeg" data-title="" data-Lightbox="lambo-img" class="foto2">
+                <img src="img/foto2.jpeg" class="foto2">
         </div>
         <div class="text">
             <h3>Sobre <span> Mim</span></h3>
@@ -82,10 +86,10 @@
             </div>   
         </div>
         <div class="galery-container2">
-            <a href="img/foto5.jpeg" class="">
+            <a href="img/foto5.jpeg" data-title="" data-Lightbox="lambo-img" class="foto5">
                 <img src="img/foto5.jpeg" class="foto5" alt="">
             </a>
-            <a href="img/foto3.jpeg" class="">
+            <a href="img/foto3.jpeg" data-title="" data-Lightbox="lambo-img" class="foto3">
                 <img src="img/foto3.jpeg" class="foto3">
         </div>
     </section>
@@ -95,29 +99,44 @@
                 <h2>Meus <span>Projetos</span></h2>
             </div>
             <div class="galery-container">
-                <a href="img/fone.png" class="galery-items">
+                <a href="img/fone.png" data-title="" data-Lightbox="lambo-img" class="galery-items">
                     <img src="img/fone.png" alt="">
                 </a>
-                <a href="img/teclado.jpg" class="galery-items">
+                <a href="img/teclado.jpg" data-title="" data-Lightbox="lambo-img" class="galery-items">
                     <img src="img/teclado.jpg" alt="">
                 </a>
-                <a href="img/gabinete.png" class="galery-items">
+                <a href="img/gabinete.png" data-title="" data-Lightbox="lambo-img" class="galery-items">
+                    <img src="img/gabinete.png" alt="">
+                </a>
+            </div>
+            <video width="640" height="360" poster="./img/capa-video1.jpg" controls>
+                <source src="./img/ESPECIAL-DA-REFORMA-Lutero-e-sua-família_1.mkv">
+                <source src="./img/ESPECIAL-DA-REFORMA-Lutero-e-sua-família_1.mp4">
+                <source src="./img/ESPECIAL-DA-REFORMA-Lutero-e-sua-família_1.mov">
+            </video>
+            <div class="galery-container">
+                <a href="img/fone.png" data-title="" data-Lightbox="lambo-img" class="galery-items">
+                    <img src="img/fone.png" alt="">
+                </a>
+                <a href="img/teclado.jpg" data-title="" data-Lightbox="lambo-img" class="galery-items">
+                    <img src="img/teclado.jpg" alt="">
+                </a>
+                <a href="img/gabinete.png" data-title="" data-Lightbox="lambo-img" class="galery-items">
                     <img src="img/gabinete.png" alt="">
                 </a>
             </div>
         </main>
     </section>
     <section class="final-text" id="contato">
+        <div class="container">
+                <img src="" alt="">
+        </div>
             <div class="text">
-                <h3>Sobre <span> Mim</span></h3>
+                <h3>Entre em<span> Contato</span></h3>
                 <p>
                     Lorem Ipsum has been the industry's standmbled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
                 <button class="button" href="https://wa.me/5551982661960">Entrar em Contato</button>
-            </div>
-            <div class="container">
-                <div class="img">
-                    <img src="./img/des.png" alt="">
             </div>
         </div>
     </section>
@@ -133,5 +152,6 @@
             <p>RS | Sapucaia do Sul. Rua Tiradentes, 458 - Bairro Diehl </p>
         </div>
     </footer>
+    <script src="lightbox-plus-jquery.js"></script>
 </body>
 </html>

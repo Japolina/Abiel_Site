@@ -29,7 +29,6 @@ section{
     background-position: center;
     background-image: url(img/back.png);
 }
-
 /* ------------------------------------------ Botão Contato ----------------------------- */
 
 .btn{
@@ -194,6 +193,7 @@ nav li a{
     position: relative;
     max-width: 600px;
     margin-right: 20px;
+    margin-left: 5rem;
 }
 .content .text h2{
     color: #fff;
@@ -229,6 +229,7 @@ nav li a{
     justify-content: center;
     align-items: center;
     color: #fff;
+    margin-left: 3rem;
 }
 .icons li{
     list-style: none;
@@ -265,7 +266,7 @@ nav li a{
 .figure-principal .fig3{
     display: flex;
     align-items: center;
-    height: 85rem;
+    height: 90rem;
     margin-left: -1rem;
     margin-right: 0rem;
     margin-bottom: 1rem;
@@ -275,9 +276,9 @@ nav li a{
     position: absolute;
     display: flex;
     align-items: center;
-    height: 120rem;
-    left: 45rem;
-    margin-bottom: 10rem;
+    height: 110rem;
+    left: 31rem;
+    margin-bottom: 1rem;
     padding: 0px 50px;
 }
 
@@ -294,8 +295,8 @@ figure{
 figure .fig{
     display: flex;
     align-items: center;
-    margin-top: -12rem;
-    height: 10rem;
+    margin-top: -15rem;
+    height: 9rem;
     margin-right: 0rem;
     margin-bottom: 1rem;
     padding: 0px 50px;
@@ -307,7 +308,7 @@ figure .fig2{
     margin-top: -31rem;
     margin-right: 0rem;
     margin-bottom: 0rem;
-    padding: 0px 100px;
+    padding: 0px 300px;
 }
 .sobre{
     background-size: cover;
@@ -320,7 +321,7 @@ figure .fig2{
 }
 .container .text{
     width: 50%;
-    padding: 1.5rem 0rem;
+    padding: 10rem 0rem;
     margin-left: 40rem;
 }
 .container .text h3{
@@ -331,7 +332,7 @@ figure .fig2{
 .sobre .text p{
     margin: 2rem 0rem ;
     color: #121212;
-    padding: 5rem 1rem;
+    padding: 7rem 1rem;
     left: 10rem;
 }
 .sobre .img{
@@ -344,15 +345,15 @@ figure .fig2{
     display: flex;
     gap: 3rem;
     margin-left: 1rem;
-    padding: 5rem 0rem;
+    padding: 10rem 0rem;
 }
 .galery-container1 .foto1{
     position: absolute;
     border-radius: 2rem;
-    width: 20rem;
-    height: 25rem;
-    top: 9rem;
-    left: 12rem;
+    width: 24rem;
+    height: 32rem;
+    top: 5rem;
+    left: 5rem;
     transition: 0.2s;
 }
 .galery-container1 .foto2{
@@ -360,12 +361,20 @@ figure .fig2{
     border-radius: 2rem;
     width: 20rem;
     height: 34rem;
-    top: 15rem;
-    left: 28rem;
+    top: 10rem;
+    left: 13rem;
     transition: 0.2s;
 }
 .galery-container1 img:hover{
     transform: scale(1.1);
+}
+.img{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.img:nth-child(1){
+    background-image: url(img/foto1.jpeg);
 }
 /* ---------------------------------- Serviços ----------------------------*/
 .servicos {
@@ -374,22 +383,21 @@ figure .fig2{
 .servicos .title2 {
     color: aliceblue;
     font-size: 35px;
-    margin-left: 15rem;
-    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-top: 15rem;
 }
 .servicos .container2{
     display: flex;
     align-items: center;
-    margin-left: 10rem;
 }
 .servicos .text{
-    width: 55%;
+    width: 60%;
     padding: 0 40px;
     color: aliceblue;
 }
 .servicos .text p{
     margin: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 300px;
     color: aliceblue;
 }
 .galery-container2{
@@ -403,8 +411,8 @@ figure .fig2{
     border-radius: 2rem;
     width: 22rem;
     height: 27rem;
-    top: 9rem;
-    left: 85rem;
+    top: 5rem;
+    left: 35rem;
     transition: 0.2s;
 }
 .galery-container2 .foto3{
@@ -412,8 +420,8 @@ figure .fig2{
     border-radius: 2rem;
     width: 24rem;
     height: 32rem;
-    top: 19rem;
-    left: 63rem;
+    top: 10rem;
+    left: 27rem;
     transition: 0.2s;
 }
 .galery-container2 img:hover{
@@ -425,20 +433,22 @@ figure .fig2{
     background-size: cover;
     background-position: center;
     background-image: url(img/fundo1_2.png);
+    height: 100rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .projetos .titulo h2{
     color: #000000;
     font-size: 50px;
     margin: 50px;
-    margin-bottom: 100px;
-    margin-left: 50pX;
+    margin-left: 27rem;
 }
 .galery-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 3rem;
-    margin-left: 10rem;
     padding: 0 1vw;
 }
 .galery-items{
@@ -454,6 +464,11 @@ figure .fig2{
 }
 .galery-container img:hover{
     transform: scale(1.1);
+}
+video {
+    margin-left: 20rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 /* ------------------------------------- Texto Final ------------------------------ */
@@ -527,25 +542,19 @@ footer{
     justify-content: center;
     color: #fff;
 }
-/*celulares*/
-@media screen and (max-width: 380px){
-
-    section{
-        position: relative;
-        width: 100%;
-        min-height: 100vh;
-        padding: 5px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        overflow: hidden;
-        background-color: #0073c8;
-    }
-    .principal{
-        background-size: cover;
-        background-position: center;
-        background-image: url(img/back.png);
-    }
-
-
+/* -------------------------------- MEDIA QUERY ----------------------------- */
+@media screen and (max-width:1600px) {
+section {
+    width: 100%;
+}
+}
+@media screen and (max-width: 768px){
+section{
+    width: 100%;
+    flex-direction: column;
+}
+.principal{
+    width: 100%;
+    flex-direction: column;
+}
 }
