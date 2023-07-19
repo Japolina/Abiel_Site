@@ -368,14 +368,6 @@ figure .fig2{
 .galery-container1 img:hover{
     transform: scale(1.1);
 }
-.img{
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-}
-.img:nth-child(1){
-    background-image: url(img/foto1.jpeg);
-}
 /* ---------------------------------- Serviços ----------------------------*/
 .servicos {
     background-color: #0073c8;
@@ -383,12 +375,13 @@ figure .fig2{
 .servicos .title2 {
     color: aliceblue;
     font-size: 35px;
-    margin-left: 5rem;
+    margin-left: -2rem;
     margin-top: 15rem;
 }
 .servicos .container2{
     display: flex;
     align-items: center;
+    margin-left: -5rem;
 }
 .servicos .text{
     width: 60%;
@@ -396,7 +389,7 @@ figure .fig2{
     color: aliceblue;
 }
 .servicos .text p{
-    margin: 50px;
+    margin: 10px;
     margin-bottom: 300px;
     color: aliceblue;
 }
@@ -412,7 +405,7 @@ figure .fig2{
     width: 22rem;
     height: 27rem;
     top: 5rem;
-    left: 35rem;
+    left: 31rem;
     transition: 0.2s;
 }
 .galery-container2 .foto3{
@@ -421,7 +414,7 @@ figure .fig2{
     width: 24rem;
     height: 32rem;
     top: 10rem;
-    left: 27rem;
+    left: 23rem;
     transition: 0.2s;
 }
 .galery-container2 img:hover{
@@ -433,7 +426,7 @@ figure .fig2{
     background-size: cover;
     background-position: center;
     background-image: url(img/fundo1_2.png);
-    height: 100rem;
+    height: 130rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -448,7 +441,7 @@ figure .fig2{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 3rem;
+    gap: 2rem;
     padding: 0 1vw;
 }
 .galery-items{
@@ -465,39 +458,40 @@ figure .fig2{
 .galery-container img:hover{
     transform: scale(1.1);
 }
-video {
-    margin-left: 20rem;
+iframe{
+    display: flex;
+    margin-left: 17rem;
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
-
 /* ------------------------------------- Texto Final ------------------------------ */
 
-.final-text{
-    background-size: cover;
-    background-position: center;
-    background-image: url(img/fundo1.png);
-}
-.final-text .container{
-    display: flex;
-    align-items: center;
-}
-.final-text .text{
-    width: 50%;
+.container .text-final{
+    width: 100%;
     padding: 0 40px;
+    margin-top: 5rem;
 }
-.final-text .text h3{
+.container .text-final h3{
+    font-size: 50px;
+    margin-bottom: 1rem;
+    margin-left: 20rem;
+}
+.container .text-final p{
+    width: 80%;
+    margin-left: 7rem;
+}
+.container .text-final h3{
     font-size: 50px;
 }
-.final-text .text p{
-    margin: 50px 0 10px 0;
-    margin-bottom: 100px;
+.container .text-final span1{
+    margin-left: 6rem;
+    color: #e1b000;
+    font-size: 20px;
+    margin-bottom: 5rem;
 }
-.final-text .img{
-    width: 100%;
-}
-.final-text .img img{
-    width: 100%;
+button{
+    margin-left: 25rem;
+    margin-top: 5rem;
 }
 
 /* ----------------------------------- Footer -------------------------------------------- */
@@ -542,19 +536,86 @@ footer{
     justify-content: center;
     color: #fff;
 }
+
 /* -------------------------------- MEDIA QUERY ----------------------------- */
+
 @media screen and (max-width:1600px) {
 section {
     width: 100%;
 }
 }
 @media screen and (max-width: 768px){
-section{
+.principal{
+        background-size: cover;
+        background-position: 50rem;
+        background-image: url(img/back.png);
+}
+.section .principal{
     width: 100%;
     flex-direction: column;
 }
-.principal{
+header {
     width: 100%;
     flex-direction: column;
+}
+/* --------------------------------Sobre mim ------------------------------ */
+.sobre{
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/fundo1.png);
+}
+.sobre .container{
+    display: flex;
+    width: 100%;
+    margin-bottom: 20rem;
+}
+.sobre .container .text{
+    width: 50%;
+    padding: 10rem 0rem;
+    margin-left: 40rem;
+}
+.container .text h3{
+    font-size: 50px;
+    color: #121212;
+    padding: 0rem 1rem;
+}
+.sobre .text p{
+    margin: 2rem 0rem ;
+    color: #121212;
+    padding: 7rem 1rem;
+    left: 10rem;
+}
+.sobre .img{
+    width: 50%;
+}
+.sobre .img img{
+    width: 100%;
+}
+.galery-container1{
+    display: flex;
+    gap: 3rem;
+    margin-left: 1rem;
+    padding: 10rem 0rem;
+}
+.galery-container1 .foto1{
+    position: absolute;
+    border-radius: 2rem;
+    width: 24rem;
+    height: 32rem;
+    top: 17rem;
+    left: 5rem;
+    transition: 0.2s;
+}
+.galery-container1 .foto2{
+    position: absolute;
+    border-radius: 2rem;
+    width: 20rem;
+    height: 34rem;
+    top: 25rem;
+    left: 13rem;
+    transition: 0.2s;
+}
+.galery-container1 img:hover{
+    transform: scale(1.1);
 }
 }
