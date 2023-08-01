@@ -383,6 +383,13 @@ figure .fig2{
     align-items: center;
     margin-left: 17rem;
 }
+.sobre .text{
+    flex-direction: column;
+}
+.sobre .text h3{
+    color: #000000;
+    margin-left: -2rem;
+}
 .sobre .text p{
     color: #121212;
     padding: 5rem 0rem;
@@ -439,9 +446,19 @@ figure .fig2{
 }
 .servicos .container2 .text{
     display: flex;
+    flex-direction: column;
     width: 45%;
+    margin-top: 10rem;
+}
+.servicos .container2 .text h3{
+    color:aliceblue;
+    margin-left: 10px;
+    font-size: 50px;
 }
 .servicos .container2 .text p{
+    padding: 5rem 0rem;
+    width: 120%;
+    font-weight: 500;
     margin: 10px;
     font-size: 20px;
     margin-bottom: 300px;
@@ -449,18 +466,18 @@ figure .fig2{
 }
 .galery-container2{
     display: flex;
+    width: auto;
     gap: 3rem;
     margin-left: 1rem;
     padding: 5rem 0rem;
-    margin-bottom: -10rem;
 }
 .galery-container2 .foto5{
     position: absolute;
     border-radius: 2rem;
     width: 22rem;
     height: 27rem;
-    top: 5rem;
-    left: 33rem;
+    top: 6rem;
+    left: 31rem;
     transition: 0.2s;
 }
 .galery-container2 .foto3{
@@ -468,8 +485,8 @@ figure .fig2{
     border-radius: 2rem;
     width: 24rem;
     height: 32rem;
-    top: 10rem;
-    left: 26rem;
+    top: 15rem;
+    left: 24rem;
     transition: 0.2s;
     
 }
@@ -543,11 +560,12 @@ iframe{
     font-size: 50px;
     justify-content: center;
 }
-.container p span1{
+.container span1{
     color: #e1b000;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
     font-size: 20px;
-    margin-bottom: 5rem;
-    margin-left: 10rem;
 }
 button{
     margin-top: 5rem;
@@ -706,41 +724,61 @@ nav li a{
     font-size: 17px;
 }
 /* --------------------------------Sobre mim ------------------------------ */
+figure{
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+figure .fig{
+    display: flex;
+    align-items: center;
+    margin-top: -19rem;
+    height: 9rem;
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+    padding: 0px 50px;
+}
 .sobre{
     width: 100%;
     display: flex;
 }
-.sobre .container main .title h3{
-    color: #000000;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin: auto;
-    font-size: 40px;
-    margin-top: -5rem;
+.sobre .text{
+    display:contents;
+    flex-direction: column;
 }
-.sobre .container main .text p{
+.sobre .text h3{
+    display: contents;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    margin-left: -33rem;
+}
+.sobre .text p{
+    color: #121212;
+    padding: 5rem 0rem;
     width: 100%;
-    font-size: clamp(1.75em, 1em + 3vw, 2.5em);
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: 500;
     margin-bottom: 35rem;
-    font-weight: 600;
+    
 }
 .galery-container1{
     flex-direction: column-reverse;
     margin: auto;
+    width: 100%;
+     /* margin-bottom: 40rem; -------------------------------- */
 }
 .galery-container1 .foto1{
     position: absolute;
     border-radius: 2rem;
     width: 24rem;
     height: 32rem;
-    top: 20rem;
-    left: 1rem;
+    top: 29rem;
+    left: 0.5rem;
     transition: 0.2s;
 }
 .galery-container1 .foto2{
@@ -748,7 +786,7 @@ nav li a{
     border-radius: 2rem;
     width: 20rem;
     height: 34rem;
-    top: 27rem;
+    top: 38rem;
     left: 8rem;
     transition: 0.2s;
 }
@@ -762,25 +800,43 @@ nav li a{
 .servicos {
     width: 100%;
     display: flex;
+    flex-direction: column;
 }
-.servicos .title2 h2{
+.servicos .container2 .text h3{
     width: 100%;
     justify-content: center;
     align-items: center;
     width: 100%;
     margin: auto;
-    font-size: 40px;
-    margin-top: -15rem;
+    margin-top: -5rem;
 }
-.servicos .container2{
+.servicos .container2 .text{
     width: 100%;
     justify-content: center;
+    margin-bottom: 40rem;
 }
-.servicos .container2 p{
-    display: block;
-    margin: auto;
+.servicos .container2 .text p{
+    display: contents;
     width: 100%;
-    font-size: clamp(1.75em, 1em + 3vw, 2.5em);
-    font-size: 10px;
+    font-size: 20px;
     font-weight: 500;
+}
+.galery-container2 .foto5{
+    position: absolute;
+    border-radius: 2rem;
+    width: 22rem;
+    height: 27rem;
+    top: 27rem;
+    left: 0.5rem;
+    transition: 0.2s;
+}
+.galery-container2 .foto3{
+    position: absolute;
+    border-radius: 2rem;
+    width: 24rem;
+    height: 32rem;
+    top: 35rem;
+    left: 6rem;
+    transition: 0.2s;
+    
 }
