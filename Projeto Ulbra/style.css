@@ -436,19 +436,17 @@ figure .fig2{
     display: flex;
     align-items: center; 
 }
-.servicos .title2 {
+.servicos .container2 {
     display: flex;
     color: aliceblue;
-    font-size: 3rem;
-    padding: 50px 0px;
-    margin-left: 1rem;
-    margin-top: 15rem;
+    width: 55%;
 }
 .servicos .container2 .text{
     display: flex;
     flex-direction: column;
-    width: 45%;
+    width: 100%;
     margin-top: 10rem;
+    margin-bottom: 15rem;
 }
 .servicos .container2 .text h3{
     color:aliceblue;
@@ -457,11 +455,9 @@ figure .fig2{
 }
 .servicos .container2 .text p{
     padding: 5rem 0rem;
-    width: 120%;
-    font-weight: 500;
-    margin: 10px;
+    width: 100%;
     font-size: 20px;
-    margin-bottom: 300px;
+    font-weight: 500;
     color: aliceblue;
 }
 .galery-container2{
@@ -486,7 +482,7 @@ figure .fig2{
     width: 24rem;
     height: 32rem;
     top: 15rem;
-    left: 24rem;
+    left: 25rem;
     transition: 0.2s;
     
 }
@@ -793,7 +789,7 @@ figure .fig{
 .galery-container1 img:hover{
     transform: scale(1.1);
 }
-}
+
 
 /* -------------------------------- Experiências ------------------------------ */
 
@@ -803,6 +799,7 @@ figure .fig{
     flex-direction: column;
 }
 .servicos .container2 .text h3{
+    display: contents;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -811,9 +808,12 @@ figure .fig{
     margin-top: -5rem;
 }
 .servicos .container2 .text{
-    width: 100%;
+    display: contents;
+    width: 200%;
     justify-content: center;
-    margin-bottom: 40rem;
+    margin-bottom: 65rem;
+    display: flex;
+    flex-direction: column;
 }
 .servicos .container2 .text p{
     display: contents;
@@ -821,13 +821,21 @@ figure .fig{
     font-size: 20px;
     font-weight: 500;
 }
+.galery-container2{
+    display: flex;
+    width: auto;
+    gap: 3rem;
+    margin-left: 1rem;
+    padding: 5rem 0rem;
+    margin-bottom: -25rem;
+}
 .galery-container2 .foto5{
     position: absolute;
     border-radius: 2rem;
     width: 22rem;
     height: 27rem;
-    top: 27rem;
-    left: 0.5rem;
+    top: 32rem;
+    left: 8rem;
     transition: 0.2s;
 }
 .galery-container2 .foto3{
@@ -835,8 +843,12 @@ figure .fig{
     border-radius: 2rem;
     width: 24rem;
     height: 32rem;
-    top: 35rem;
-    left: 6rem;
+    top: 40rem;
+    left: 0.5rem;
     transition: 0.2s;
     
+}
+.galery-container2 img:hover{
+    transform: scale(1.1);
+}
 }
